@@ -1,6 +1,6 @@
 services:
   sonarqube:
-    image: 'sonarqube:25.7.0.110598-community'
+    image: 'sonarqube:25.11.0.114957-community'
     depends_on:
       - db
     environment:
